@@ -23,3 +23,5 @@ muduo的C版本，根据作者写的一本书作为参考改写，为了理解�
   el_add_pending_functions(lop, test_pending, NULL);
 	el_run_after(lop, test_timer_cb, &argint, 1000);
 
+
+参考书籍： Linux 多线程服务端编程 使用 muduo C++ 网络库
